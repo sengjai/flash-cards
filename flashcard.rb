@@ -8,7 +8,7 @@ class QuizController
 end
 
 class Cards
-	attr_accessor :id, :definitions, :terms
+	attr_accessor :definitions, :terms
 
 	def initialize(hash={})
 		@definitions = hash[:definitions]
